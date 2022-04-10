@@ -25,7 +25,7 @@ export default function SignIn(){
       jogatinas
       </Text>
 
-      <Text style={styles.title}>
+      <Text style={styles.subtitle}>
       Crie grupos para jogar seus games{`\n`}
       favoritos com seus amigos
       </Text>

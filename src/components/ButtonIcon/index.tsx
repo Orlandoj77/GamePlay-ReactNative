@@ -17,7 +17,7 @@ export function ButtonIcon(){
 
             </View>
 
-            <Text>
+            <Text style={styles.title}>
                 Entrar com o Discord
             </Text>
         </ TouchableOpacity>

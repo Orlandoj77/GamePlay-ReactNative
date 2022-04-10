@@ -3,16 +3,22 @@ import {
   View,
   Text,
    Image,
+   StatusBar
   } from 'react-native';
 import { styles } from './styles';
 import IllustrationImg from '../../assets/illustration.png'
 
 export default function SignIn(){
 
-  const[text, setText] = useState('');
 
   return(
   <View style={styles.container}>
+
+
+    {/*mudar a cor da statusbar*/}
+    <StatusBar barStyle="light-content"
+    backgroundColor="transparent"
+    translucent />
 
 
     <Image source={IllustrationImg} 

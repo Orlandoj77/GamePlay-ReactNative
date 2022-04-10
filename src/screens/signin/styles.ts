@@ -14,6 +14,11 @@ export const styles = StyleSheet.create({
      width: '100%',
      height: 360
  },
+
+ content: {
+    margin: -40,
+},
+
  title: {
    color: theme.colors.heading,
     textAlign: 'center',
@@ -22,8 +27,11 @@ export const styles = StyleSheet.create({
 },
 
 subtitle:{
+color: theme.colors.heading,
+fontSize: 15,
+textAlign: 'center',
+marginBottom:64
 
 }
 
-    
 })

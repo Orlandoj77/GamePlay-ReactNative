@@ -36,7 +36,8 @@ export default function SignIn(){
       Crie grupos para jogar seus games{`\n`}
       favoritos com seus amigos
       </Text>
-    <ButtonIcon />
+    <ButtonIcon title='Entrar com o Discord' />
+    {/*<ButtonIcon title='Orlando'/>*/}
     </View>
 
   </View>

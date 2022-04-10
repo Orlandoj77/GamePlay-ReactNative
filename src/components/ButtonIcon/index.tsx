@@ -9,7 +9,13 @@ import{
 import DiscordImg from '../../assets/discord.png';
 import {styles }from  './styeles';
 
-export function ButtonIcon(){
+
+
+type Props ={
+    title: string;
+}
+
+export function ButtonIcon({title} : Props){
     return(
         < TouchableOpacity style={styles.container}>
             <View style={styles.iconWrapper}>
@@ -18,7 +24,7 @@ export function ButtonIcon(){
             </View>
 
             <Text style={styles.title}>
-                Entrar com o Discord
+                {title}
             </Text>
         </ TouchableOpacity>
 
